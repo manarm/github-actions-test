@@ -8,4 +8,4 @@ jobs:
       - name: Test Run 
         working-directory: tests
         shell: bash
-        run: phpunit
+        run: phpunit .
