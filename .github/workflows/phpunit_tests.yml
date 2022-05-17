@@ -3,5 +3,7 @@ on: [push]
 jobs:
   PhpUnit-Tests:
     runs-on: ubuntu-20.04
+    working-directory: tests/
+    shell: bash
     steps:
-      - run: phpunit tests/
+      - run: phpunit
