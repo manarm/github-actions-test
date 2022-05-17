@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Test Run 
-        working-directory: ./tests
+        working-directory: tests
         shell: bash
         run: phpunit
