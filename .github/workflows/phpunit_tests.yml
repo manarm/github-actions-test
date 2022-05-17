@@ -1,5 +1,8 @@
-name: PhpUnit Testing
-on: [push]
+name: PhpUnit Staging Testing
+on: 
+  push:
+    branches:
+      - staging
 jobs:
   PhpUnit-Tests:
     runs-on: ubuntu-20.04
