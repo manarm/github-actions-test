@@ -1,0 +1,7 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  PhpUnit-Tests:
+    runs-on: ubuntu-20.04
+    steps:
+      - run: phpunit tests/
